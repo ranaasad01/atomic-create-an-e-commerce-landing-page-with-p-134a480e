@@ -241,7 +241,12 @@ export default function HomePage() {
             <motion.h1 variants={shouldReduce ? {} : fadeInUp} className="text-5xl md:text-6xl font-extrabold leading-tight tracking-tight">
               Curated for
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-rose-400">
+              <span
+                className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-rose-400"
+                style={{
+                  color: "#ef4444",
+                  WebkitTextFillColor: "#ef4444"
+                }}>
                 modern living.
               </span>
             </motion.h1>
