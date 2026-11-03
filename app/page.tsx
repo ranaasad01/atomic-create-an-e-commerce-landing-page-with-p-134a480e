@@ -245,7 +245,8 @@ export default function HomePage() {
                 className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-rose-400"
                 style={{
                   color: "#ef4444",
-                  WebkitTextFillColor: "#ef4444"
+                  WebkitTextFillColor: "#ef4444",
+                  backgroundColor: "#000000"
                 }}>
                 modern living.
               </span>
