@@ -252,7 +252,12 @@ export default function HomePage() {
               </span>
             </motion.h1>
 
-            <motion.p variants={shouldReduce ? {} : fadeInUp} className="text-lg text-indigo-200 max-w-md leading-relaxed">
+            <motion.p
+              variants={shouldReduce ? {} : fadeInUp}
+              className="text-lg text-indigo-200 max-w-md leading-relaxed"
+              style={{
+                backgroundColor: "#84cc16"
+              }}>
               Discover premium electronics, fashion, and home essentials —
               thoughtfully selected for quality, design, and everyday joy.
             </motion.p>
